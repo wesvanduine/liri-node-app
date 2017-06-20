@@ -9,13 +9,8 @@ var keys = require('./keys.js');
 var argument = process.argv[2];
 
 
-
-
 //////////////////////////////////
-//           Logic			    //
-//////////////////////////////////
-
-//TWITTER//
+//           TWITTER            //
 //////////////////////////////////
 
 //variable to grab the Twitter API
@@ -34,7 +29,6 @@ var params = {
 }
 
 //function to get user data, error check, loop through the length of the tweets and log each one with a datestamp
-
 if (argument === 'my-tweets') {
     client.get('/statuses/user_timeline.json', params, function(error, data, response) {
         if (!error) {
@@ -47,3 +41,11 @@ if (argument === 'my-tweets') {
         } else console.log(error);
     })
 };
+
+//////////////////////////////////
+//           Spotify            //
+//////////////////////////////////
+if (argument === 'spotify-this-song'){
+	var songTitle = process.argv[3];
+
+}
