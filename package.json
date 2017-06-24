@@ -5,6 +5,7 @@
   "main": "keys.js",
   "dependencies": {
     "node-spotify-api": "^1.0.5",
+    "object.pick": "^1.2.0",
     "request": "^2.81.0",
     "twitter": "^1.7.1"
   },
