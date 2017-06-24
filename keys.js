@@ -7,11 +7,5 @@ exports.twitterKeys = {
   access_token_secret: 'CNFeDLjcRxD1HRq8OxPPd4YWbhiW0EMoByJhHmzY1Ryi2',
 }
 
-exports.spotifyKeys = {
-	client_ID: '99da4bad56fa48168dc0deb9ef273b41',
-	client_secret: '30c50c4da992414097186b0edd1aa6e4'
-}
 
-exports.omdbKey = {
-	
-}
+
